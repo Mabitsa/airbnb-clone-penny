@@ -1,0 +1,68 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 100vw;
+}
+
+.search > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+
+.search > input {
+    position: absolute;
+    padding: 20px;
+    top: 35px;
+    left: 0;
+    height: 30px;
+    width: 539px;
+    border: none;
+}
+
+.search > input:focus {
+    outline-width: 0;
+}
+
+.search > button {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 579px;
+}
+
+.search .MuiButton-root:hover {
+    background-color: #ff7b7f;
+}
+
+.search input[type="number"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60px;
+    text-align: center; 
+}
+
+.search .MuiButton-root {
+    background-color: #ff5a5f; 
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+
+
