@@ -20,7 +20,7 @@ const SearchPage = () => {
             location="Private room in center of London"
             title="Stay at this spacious Edwardian House"
             description="1 guest . 1 bedroom . 1 bed . 1.5 shared bathroom . Wifi . Kitchen . Free parking . Washing Machine"
-            star={4.8}
+            star={4.3}
             price="R7000 / night"
             total="R28 000 total"
          />
@@ -39,7 +39,7 @@ const SearchPage = () => {
             location="Private room with ocean views in Langebaan"
             title="Stay at this Private Beach House"
             description="2 guest . 1 bedroom . 1 bed . 1.5 shared bathroom . Wifi . Kitchen . Free parking . Washing Machine"
-            star={4.8}
+            star={4.7}
             price="R2000 / night"
             total="R10 000 total"
          />
@@ -49,7 +49,7 @@ const SearchPage = () => {
             location="Private room with ocean views in Langebaan"
             title="Stay at this Private Beach House"
             description="2 guest . 1 bedroom . 1 bed . 1.5 shared bathroom . Wifi . Kitchen . Free parking . Washing Machine"
-            star={4.8}
+            star={4.5}
             price="R2000 / night"
             total="R10 000 total"
          />
@@ -59,9 +59,9 @@ const SearchPage = () => {
             location="Private accommodation stay in the bush"
             title="Stay at this Private Beach House"
             description="2 guest . 1 bedroom . 1 bed . 1.5 shared bathroom . Wifi . Kitchen . Free parking . Washing Machine"
-            star={4.8}
+            star={4.4}
             price="R2000 / night"
-            total="R10 000 total"
+            total="R5000 total"
          />
     </div>
   );

@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import Footer from './components/layout/Footer';
 import SearchPage from "./components/SearchPage";
 import SearchResult from "./components/SearchResult";
+import Modal from "./components/Modal";
+import Login from "./components/Login";
 
 const App = () => {
   return (
@@ -15,10 +17,16 @@ const App = () => {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="./search">
+          <Route path="/search">
             <SearchPage />
           </Route>
+          <Route path="/Login">
+            <Login />
+          </Route>
         </Switch>
+        <Route path="/search">
+          <Modal />
+        </Route>
         <Footer />
       </Router>
     </div>
